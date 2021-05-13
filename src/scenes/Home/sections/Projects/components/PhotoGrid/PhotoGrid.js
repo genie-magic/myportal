@@ -9,7 +9,7 @@ const Shuffle = window.Shuffle;
 const projects = [
   {
     id: 0,
-    image: 'verifeye',
+    image: 'onpinverifeye',
     skills: 'Laravel + Angular + JQuery',
     groups: ['javascript', 'php'],
     title: 'Verifeye',
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 1,
-    image: 'cw',
+    image: 'caw',
     skills: 'Vue.js + Nuxt.js',
     groups: ['javascript'],
     title: 'Carewindow',
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: 2,
-    image: 'insta',
+    image: 'pernamint',
     skills: 'React.js/Next.js/Web3.js + Express.js',
     groups: ['javascript', 'nodejs'],
     title: 'Pernamint',
