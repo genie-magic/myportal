@@ -24,3 +24,13 @@
 .home-section .Aligner-item--bottom {
   align-self: flex-end;
 }
+.home-section .animation-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
+.home-section #welcome-container {
+  position: absolute;
+}
