@@ -188,7 +188,7 @@ const projects = [
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
-  const imgSrc = '/images/projects/' + imageName + '.png';
+  const imgSrc = 'images/projects/' + imageName + '.png';
   const groupsJSON = JSON.stringify(groups);
 
   return (
