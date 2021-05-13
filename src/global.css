@@ -3,23 +3,25 @@ body {
   background-color: #edf3f8;
 }
 
+/*
 .skype-button-position {
   position: fixed !important;
   left: 20px;
   bottom: 40px;
   z-index: 9999;
-}
-.skype-button-position .lwc-chat-button {
-  position: relative;
-  right: 30px;
+  .lwc-chat-button {
+    position: relative;
+    right: unset;
+    left: 20px;
+  }
 }
 
 .lwc-chat-frame {
   z-index: 9999;
-  left: 20px !important;
+  left:20px !important;
   right: unset !important;
 }
-
+*/
 .showAfter10Secs {
   animation-name: showUpKeyframe;
   animation-delay: 4s;
