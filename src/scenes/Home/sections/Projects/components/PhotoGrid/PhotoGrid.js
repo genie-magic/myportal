@@ -10,7 +10,7 @@ const projects = [
   {
     id: 0,
     image: 'onpinverifeye',
-    skills: 'Laravel + Angular + JQuery',
+    skills: 'Laravel + Vue/Vuex',
     groups: ['javascript', 'php'],
     title: 'Verifeye',
     isVisit: true,
