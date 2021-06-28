@@ -56,7 +56,7 @@ class Footer extends React.Component {
           <a
             className="social-icon"
             target="_blank"
-            href="https://www.facebook.com/xinzhe.li.9847"
+            href="https://www.facebook.com/ericlee.li.9847"
           >
             {' '}
             <span className="fa fa-facebook" />{' '}
