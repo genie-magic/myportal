@@ -3,6 +3,7 @@ import './PhotoGridFilter.css';
 
 const filterOptions = [
   { id: 1, label: 'ALL', filterValue: 'all' },
+  { id: 9, label: 'NFT/DeFi', filterValue: 'blockchain' },
   { id: 2, label: 'NODEJS', filterValue: 'nodejs' },
   { id: 3, label: 'JAVASCRIPT', filterValue: 'javascript' },
   { id: 4, label: 'PHP', filterValue: 'php' },

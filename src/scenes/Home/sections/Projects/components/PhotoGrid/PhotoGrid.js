@@ -9,6 +9,48 @@ const Shuffle = window.Shuffle;
 const projects = [
   {
     id: 0,
+    image: 'rarible',
+    skills: 'React.js/Web3.js/IPFS + Solidity',
+    groups: ['javascript', 'blockchain'],
+    title: 'Rarible',
+    isVisit: true,
+    imageCounts: 5,
+    titleDetail: 'Rarible.com',
+    subtitle: 'Rarible NFT MarketPlace',
+    url: 'https://rarible.com/',
+    description:
+      'Rarible is a software allowing digital artists and creators to issue and sell custom crypto assets that represent ownership in their digital work. </br> Delivered effective support on Rarible, including formulation and selling of Single Collectible (ERC721) and Multiple Collectible (ERC1155) while using ReactJS, Next.js, Web3.js , IPFS.'
+  },
+  {
+    id: 1,
+    image: 'xsigmadefi',
+    skills: 'React.js/Web3.js',
+    groups: ['javascript', 'blockchain'],
+    title: 'xSigma DeFi',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'xsigma.fi',
+    subtitle: 'xSigma DeFi',
+    url: 'https://xsigma.fi/',
+    description:
+      'xSigma Finance is a decentralized stablecoin exchange that provides the cheapest transactions for customers and a mining platform for liquidity providers.</br> Interacted with special smart contract that holds pool of three stablecoins (DAI, USD, and USDT) on xSigma DeFi and enhanced wallet choosing logic.'
+  },
+  {
+    id: 2,
+    image: 'xsigma',
+    skills: 'React.js/Web3.js/bnc-onboard + Express.js',
+    groups: ['javascript', 'nodejs', 'blockchain'],
+    title: 'xSigma NFT',
+    isVisit: true,
+    imageCounts: 5,
+    titleDetail: 'xSigma NFT',
+    subtitle: 'xSigma NFT MarketPlace',
+    url: 'https://xsigma-nft-frontend.vercel.app/',
+    description:
+      '• Assist various Ethereum wallets including MetaMask , Fortamic, Torus, Coinbase and Trezor </br> • Create single/multiple collectible (ERC721/ERC1155) </br> • Direct Sale/Auction/Resale '
+  },
+  {
+    id: 3,
     image: 'onpinverifeye',
     skills: 'Laravel + Vue/Vuex',
     groups: ['javascript', 'php'],
@@ -22,7 +64,7 @@ const projects = [
       'On-Pin has been a golf course focused technology company for over 20 years. </br> •	Managing Facility/Course/Station/Assets , Members/Visitors , Geofence/Ad  </br> •	Established Real-time Golf Cart Tracking System using Rfid </br> •	Detail analyzed reports for Players/Rounds/Cart/Pace of Play/ Stations '
   },
   {
-    id: 1,
+    id: 4,
     image: 'caw',
     skills: 'Vue.js + Nuxt.js',
     groups: ['javascript'],
@@ -36,21 +78,7 @@ const projects = [
       'Carewindow is resource to bridge families with residential rehabilitation and elderly care providers.'
   },
   {
-    id: 2,
-    image: 'pernamint',
-    skills: 'React.js/Next.js/Web3.js + Express.js',
-    groups: ['javascript', 'nodejs'],
-    title: 'Pernamint',
-    isVisit: true,
-    imageCounts: 3,
-    titleDetail: 'pernamint.com',
-    subtitle: 'Instagram NFT Posts: Easily create and sell NFTs',
-    url: 'https://pernamint.com/',
-    description:
-      'Create/Selling Instagram NFT Posts (Auction). Users used Metamask to access their Ethereum wallet to make offer , accept offer , cancel offer and resell.'
-  },
-  {
-    id: 3,
+    id: 5,
     image: 'oohyah',
     skills: 'AngularJS + PHP',
     groups: ['php', 'javascript'],
@@ -64,7 +92,7 @@ const projects = [
       'Oohyah is Music Revalued A Fan Supported Streaming Platform. Provide powerful filter search and easy subscription system with millions of popular songs. Used AngularJS for front-end and Laravel5 for back-end.'
   },
   {
-    id: 4,
+    id: 6,
     image: 'kindertale',
     skills: 'PHP + Javascript',
     groups: ['php'],
@@ -78,7 +106,7 @@ const projects = [
       'Easy to use childecare management system. Powerful tools for care providers and Parents stay connected to their child from anywhere. Easy online billing, Communication, Very powerful dynamic form builder and CRM are provided. Both android and ios app are ready. Used PHP using own built-in framework'
   },
   {
-    id: 5,
+    id: 7,
     image: 'TuftAndNeedle',
     skills: 'AngularJS + PHP',
     groups: ['php', 'javascript'],
@@ -92,7 +120,7 @@ const projects = [
       'Tuft and Needle is set to do to the mattress business what Warby Parker did for eyewear. Used AngularJS for front-end and Laravel5 for back-end.'
   },
   {
-    id: 6,
+    id: 8,
     image: 'ztorie',
     skills: 'VueJS',
     groups: ['javascript'],
@@ -106,10 +134,10 @@ const projects = [
       'Ztorie is like instagram story maker.  User can create any widget by adding video , image , texts , music , effects and move,drag,rotate elements and embed it to any website you want. '
   },
   {
-    id: 7,
+    id: 9,
     image: 'omnibazaar',
     skills: 'NodeJS + ReactJS',
-    groups: ['javascript', 'nodejs'],
+    groups: ['javascript', 'nodejs', 'blockchain'],
     title: 'Omnibazaar',
     isVisit: true,
     imageCounts: 3,
@@ -120,7 +148,7 @@ const projects = [
       'Omnibazaar is decentralized e-commerce marketing platform. You can list products and services in the marketplace and accomplish transaction with crypto coins. Used ElectronJS + ReactJS to build cross platform desktop applications'
   },
   {
-    id: 8,
+    id: 10,
     image: 'shoponya',
     skills: 'PHP ',
     groups: ['php'],
@@ -134,7 +162,7 @@ const projects = [
       'E-commerce market place to let you spend less time marketing and more time filling orders. Visual tag based search. Integrated stripe payment gateway.'
   },
   {
-    id: 9,
+    id: 11,
     image: 'featurefinance',
     skills: 'Vue.js + Laravel',
     groups: ['javascript', 'php'],
@@ -147,20 +175,7 @@ const projects = [
       'Feature Finance democratizes film by offering a role and a voice to mainstream consumers whose previous participation in the movie business was simply buying tickets. '
   },
   {
-    id: 10,
-    image: 'Conceptsauce',
-    skills: 'KeyStoneJS + NodeJS',
-    groups: ['javascript', 'nodejs'],
-    title: 'Conceptsauce',
-    isVisit: true,
-    imageCounts: 1,
-    titleDetail: 'Conceptsauce',
-    url: 'https://conceptsauce.io',
-    description:
-      'Clients can be assured that the 3D Activity Platform is build by people with commercial experience.'
-  },
-  {
-    id: 11,
+    id: 12,
     image: 'healthwallet',
     skills: 'Ionic/Angular',
     groups: ['mobile', 'javascript'],
@@ -172,18 +187,6 @@ const projects = [
       'https://apps.apple.com/us/app/the-health-wallet/id1178462674#?platform=iphone',
     description:
       'HealthWallet is a healthcare application that stores all your medical-related information. Health Wallet allows you to keep all of your medical card information in one location, accessible at times when you need it most.'
-  },
-  {
-    id: 12,
-    image: 'restaurant',
-    skills: 'Dart/Flutter',
-    groups: ['mobile', 'php'],
-    title: 'Restaurant',
-    isVisit: false,
-    imageCounts: 8,
-    titleDetail: 'Restaurant',
-    description:
-      'Restaurant/Meal order app. Built backend rest api using laravel, Admin web app using react.js. Mobile with dart/flutter'
   }
 ];
 

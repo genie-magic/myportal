@@ -172,12 +172,13 @@ class AboutMe extends React.Component {
                   <Skill rate={90} label="Vue/Nuxt" />
                   <Skill rate={85} label="CSS/SCSS" />
                   <Skill rate={90} label="HTML" />
-                  <Skill rate={85} label="Node.js" />
+                  <Skill rate={80} label="Node.js" />
                   <Skill rate={85} label="PHP" />
                   <Skill rate={80} label="Python" />
-                  <Skill rate={70} label="Ruby/Rails" />
-                  <Skill rate={80} label="Ionic" />
-                  <Skill rate={70} label="Dart/Flutter" />
+                  <Skill rate={70} label="Ionic" />
+                  <Skill rate={80} label="Ethereum" />
+                  <Skill rate={85} label="Web3.js" />
+                  <Skill rate={80} label="Ethers.js" />
                 </div>
               </Col>
             </Row>
