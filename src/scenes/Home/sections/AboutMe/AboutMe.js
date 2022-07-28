@@ -173,6 +173,7 @@ class AboutMe extends React.Component {
                   <Skill rate={85} label="CSS/SCSS" />
                   <Skill rate={90} label="HTML" />
                   <Skill rate={80} label="Node.js" />
+                  <Skill rate={90} label="Nest.js" />
                   <Skill rate={85} label="PHP" />
                   <Skill rate={80} label="Python" />
                   <Skill rate={70} label="Ionic" />

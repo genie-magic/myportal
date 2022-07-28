@@ -10,8 +10,8 @@ const projects = [
   {
     id: 0,
     image: 'rarible',
-    skills: 'React.js/Web3.js/IPFS + Solidity',
-    groups: ['javascript', 'blockchain'],
+    skills: 'React.js/Web3.js/Nest.js/IPFS + Solidity',
+    groups: ['javascript', 'blockchain', 'nodejs'],
     title: 'Rarible',
     isVisit: true,
     imageCounts: 5,
@@ -38,7 +38,7 @@ const projects = [
   {
     id: 2,
     image: 'xsigma',
-    skills: 'React.js/Web3.js/bnc-onboard + Express.js',
+    skills: 'React.js/Web3.js/bnc-onboard + Nest.js',
     groups: ['javascript', 'nodejs', 'blockchain'],
     title: 'xSigma NFT',
     isVisit: true,
@@ -52,8 +52,8 @@ const projects = [
   {
     id: 3,
     image: 'onpinverifeye',
-    skills: 'Laravel + Vue/Vuex',
-    groups: ['javascript', 'php'],
+    skills: 'Laravel + Vue/Vuex + Nest.js',
+    groups: ['javascript', 'php', 'nodejs'],
     title: 'Verifeye',
     isVisit: true,
     imageCounts: 4,
